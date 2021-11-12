@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr"></html>
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" type="image/x-icon">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        {# beware that the blocks in your template may be named different #}
+        {% block head_css %}
+        <!-- Copy CSS from https://getbootstrap.com/docs/4.4/getting-started/introduction/#css -->
+        {% endblock %}
+        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}THE GOOD ONE{% endblock %}</title>
+        {# templates/base.html.twig #}
+
+
+
+    </head>
+    <body>
+    <div class="body">
+        <div class="bg">
+            <div class="html">
+        
+        <div class="example-wrapper">
+            <h1 class="display-4">Bienvenue sur THE GOOD ONE!</h1>
+        
+            <div class="login_form_wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+
+                                                        <!-- LOGIN FB : GOOGLE -->
+                        
+                            <div class="login_wrapper">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6"> <a href="{{ path('login') }}"
+                                            class="btn btn-primary facebook"a>
+                                            <span>Connecte toi avec Facebook</span> <i class="fa fa-facebook"></i> </a> </div>
+                                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6"> <a href="{{ path('login') }}"
+                                            class="btn btn-primary google-plus"> Connecte toi avec Google <i
+                                                class="fa fa-google-plus"></i>
+                                        </a> </div>
+                                </div>
+                                <h2>or</h2>
+                                <div class="formsix-pos">
+                                    <div class="form-group i-email"> <input type="email" class="form-control" required=""
+                                            id="email2" placeholder="Email Address *"> </div>
+                                </div>
+                                <div class="formsix-e">
+                                    <div class="form-group i-password"> <input type="password" class="form-control" required=""
+                                            id="password2" placeholder="Password *"> </div>
+                                </div>
+                                <div class="login_remember_box"> <label class="control control--checkbox">Remember me <input
+                                            type="checkbox"> <span class="control__indicator"></span> </label> <a href="#"
+                                        class="forget_password"> Forgot Password </a> </div>
+                                <div class="login_btn_wrapper"> <a href="#" class="btn btn-primary login_btn"> Login </a> </div>
+                                <div class="login_message">
+                                    <p>Don’t have an account ? <a href="#"> Sign up </a> </p>
+                                </div>
+                            </div> <!-- /.login_wrapper-->
+                        </div>
+                    </div>
+                </div>
+           </div>  </div>
+        </div>
+       </div>
+            <ul>
+                <div id="right">
+                   
+                    <a href="{{ path('question_add') }}" class="btn btn-danger">Poser une question</a>
+                
+                </div>
+                </nav>
+                
+                <hr>
+                
+                {# display every flash message available #}
+                {% for label, messages in app.flashes %}
+                {% for message in messages %}
+                <div class="alert alert-{{ label }}">
+                    {{ message }}
+                </div>
+                {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+        {% endblock %}
+        {% block head_js %}
+        <!-- Copy JavaScript from https://getbootstrap.com/docs/4.4/getting-started/introduction/#js -->
+        {% endblock %}
+    </body>
+</html>
