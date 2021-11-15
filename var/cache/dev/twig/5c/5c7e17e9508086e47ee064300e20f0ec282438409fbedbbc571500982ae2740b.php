@@ -90,6 +90,6 @@ class __TwigTemplate_9e464b49c767f39807bf279df4b8e921413451c26ee3e0a215cbcf838d2
 {% else %}
     <a href=\"mailto:{{ field.value }}\">{{ field.formattedValue }}</a>
 {% endif %}
-", "@EasyAdmin/crud/field/email.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/email.html.twig");
+", "@EasyAdmin/crud/field/email.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/email.html.twig");
     }
 }

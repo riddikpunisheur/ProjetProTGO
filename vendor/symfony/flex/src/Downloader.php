@@ -29,8 +29,8 @@ use Composer\Util\Loop;
 class Downloader
 {
     private const DEFAULT_ENDPOINTS = [
-        'https://api.github.com/repos/symfony/recipes/contents/index.json?ref=flex/main' => [],
-        'https://api.github.com/repos/symfony/recipes-contrib/contents/index.json?ref=flex/main' => [],
+        'https://api.github.com/repos/symfony/recipes/contents/index.json?ref=flex/main',
+        'https://api.github.com/repos/symfony/recipes-contrib/contents/index.json?ref=flex/main',
     ];
     private const MAX_LENGTH = 1000;
 
@@ -58,30 +58,32 @@ class Downloader
 
         if (null === $endpoint = $composer->getPackage()->getExtra()['symfony']['endpoint'] ?? null) {
             $this->endpoints = self::DEFAULT_ENDPOINTS;
-
-            if (!filter_var(getenv('FLEX_SERVERLESS'), \FILTER_VALIDATE_BOOLEAN)) {
-                $this->endpoints = null;
-                $this->legacyEndpoint = 'https://flex.symfony.com';
+        } elseif (\is_array($endpoint) || false !== strpos($endpoint, '.json') || 'flex://defaults' === $endpoint) {
+            $this->endpoints = array_values((array) $endpoint);
+            if (\is_string($endpoint) && false !== strpos($endpoint, '.json')) {
+                $this->endpoints[] = 'flex://defaults';
             }
-        } elseif (\is_array($endpoint) || false !== strpos($endpoint, '.json')) {
-            $this->endpoints = array_fill_keys((array) $endpoint, []);
         } else {
             $this->legacyEndpoint = rtrim($endpoint, '/');
         }
 
         if (false === $endpoint = getenv('SYMFONY_ENDPOINT')) {
             // no-op
-        } elseif (false !== strpos($endpoint, '.json')) {
+        } elseif (false !== strpos($endpoint, '.json') || 'flex://defaults' === $endpoint) {
             $this->endpoints ?? $this->endpoints = self::DEFAULT_ENDPOINTS;
-            $this->endpoints = [$endpoint => []] + $this->endpoints;
+            array_unshift($this->endpoints, $endpoint);
             $this->legacyEndpoint = null;
         } else {
             $this->endpoints = null;
             $this->legacyEndpoint = rtrim($endpoint, '/');
         }
 
-        if (null !== $this->endpoints && false !== $i = array_search('flex://defaults', $this->endpoints, true)) {
-            array_splice($this->endpoints, $i, 1, self::DEFAULT_ENDPOINTS);
+        if (null !== $this->endpoints) {
+            if (false !== $i = array_search('flex://defaults', $this->endpoints, true)) {
+                array_splice($this->endpoints, $i, 1, self::DEFAULT_ENDPOINTS);
+            }
+
+            $this->endpoints = array_fill_keys($this->endpoints, []);
         }
 
         $this->io = $io;

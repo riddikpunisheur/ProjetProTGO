@@ -102,6 +102,6 @@ class __TwigTemplate_ec3c96f4e1782b34088f1d9e9231c6a5716dde0a17b29c8f311690315bd
         {{ field.formattedValue }}
     {% endif %}
 {% endif %}
-", "@EasyAdmin/crud/field/association.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/association.html.twig");
+", "@EasyAdmin/crud/field/association.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/association.html.twig");
     }
 }

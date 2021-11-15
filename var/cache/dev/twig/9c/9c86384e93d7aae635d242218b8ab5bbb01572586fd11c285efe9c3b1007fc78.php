@@ -40,7 +40,7 @@ class __TwigTemplate_8378252cad5579d7a939f432c4993a78e772dfa8413e987787c5c39bdb3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/includes/_filters_modal.html.twig"));
 
         // line 1
-        echo "<div id=\"modal-filters\" class=\"modal fade\">
+        echo "<div id=\"modal-filters\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-header\">
@@ -98,7 +98,7 @@ class __TwigTemplate_8378252cad5579d7a939f432c4993a78e772dfa8413e987787c5c39bdb3
 
     public function getSourceContext()
     {
-        return new Source("<div id=\"modal-filters\" class=\"modal fade\">
+        return new Source("<div id=\"modal-filters\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-header\">
@@ -119,6 +119,6 @@ class __TwigTemplate_8378252cad5579d7a939f432c4993a78e772dfa8413e987787c5c39bdb3
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_filters_modal.html.twig");
+", "@EasyAdmin/crud/includes/_filters_modal.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_filters_modal.html.twig");
     }
 }

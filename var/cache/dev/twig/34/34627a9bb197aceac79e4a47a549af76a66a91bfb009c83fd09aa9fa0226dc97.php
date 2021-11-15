@@ -129,6 +129,6 @@ class __TwigTemplate_50bc077ecf3bd6fbb89cb52c88418ce191bba84084e95e052634414b15c
         {% for attr, value in js_asset.htmlAttributes %}{{ attr }}=\"{{ value|e('html_attr') }}\" {% endfor %}></script>
     {% endif %}
 {% endfor %}
-", "@EasyAdmin/includes/_js_assets.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_js_assets.html.twig");
+", "@EasyAdmin/includes/_js_assets.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_js_assets.html.twig");
     }
 }

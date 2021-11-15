@@ -171,6 +171,6 @@ class __TwigTemplate_7b3e53a8e72c31439fa19e112d0387eda90b76bed7e86f9a48a7622e528
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

@@ -193,6 +193,6 @@ class __TwigTemplate_67da9cd4bea3894d674efb443d97972b57c5d440edf21baec280695107b
         {{ exception.publicMessage|trans(exception.translationParameters, 'EasyAdminBundle') }}
     </div>
 {% endblock %}
-", "@EasyAdmin/exception.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/exception.html.twig");
+", "@EasyAdmin/exception.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/exception.html.twig");
     }
 }

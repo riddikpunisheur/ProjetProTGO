@@ -81,6 +81,6 @@ class __TwigTemplate_f3f3e75ad7476ebc793d8c3dd02c72af81c5f88e0b797a0a3673097940a
 <span class=\"badge badge-danger\" title=\"{{ 'label.inaccessible.explanation'|trans }}\">
     {{ 'label.inaccessible'|trans }}
 </span>
-", "@EasyAdmin/label/inaccessible.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/inaccessible.html.twig");
+", "@EasyAdmin/label/inaccessible.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/inaccessible.html.twig");
     }
 }

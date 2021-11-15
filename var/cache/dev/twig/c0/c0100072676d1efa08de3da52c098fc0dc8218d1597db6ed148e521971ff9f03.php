@@ -482,6 +482,6 @@ class __TwigTemplate_d51e05ba780c793880fa24647d7b1acfc0e32e4a47a703eb414848ae7f2
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

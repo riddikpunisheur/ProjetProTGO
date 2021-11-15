@@ -139,6 +139,6 @@ class __TwigTemplate_721adf716bb033ca4815a2b0a6b5410de7c61f012d2b10cb7e10308ee6a
 
 {{ include('user/_delete_form.html.twig') }}
 
-{% endblock %}", "user/edit.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/user/edit.html.twig");
+{% endblock %}", "user/edit.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/user/edit.html.twig");
     }
 }

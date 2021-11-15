@@ -70,6 +70,6 @@ class __TwigTemplate_ae0c4afc1e073f6f775b74178b6d56839c87a2abca7882a4b370c2e5753
     public function getSourceContext()
     {
         return new Source("<span class=\"badge badge-secondary\">{{ 'label.empty'|trans(domain = 'EasyAdminBundle') }}</span>
-", "@EasyAdmin/label/empty.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/empty.html.twig");
+", "@EasyAdmin/label/empty.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/label/empty.html.twig");
     }
 }

@@ -132,6 +132,6 @@ class __TwigTemplate_f41ab94c81fe6aaf63a87d5be1535b9ad896fc317b0e485212419455740
 
 <a href=\"{{ path('user_index') }}\">back to list</a>
 
-{% endblock %}", "user/new.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/user/new.html.twig");
+{% endblock %}", "user/new.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/user/new.html.twig");
     }
 }

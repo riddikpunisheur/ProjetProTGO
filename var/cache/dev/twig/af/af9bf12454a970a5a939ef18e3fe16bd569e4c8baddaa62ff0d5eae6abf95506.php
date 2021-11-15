@@ -154,6 +154,6 @@ class __TwigTemplate_792f7e75f40823982339f1fc2e1286fc76875a71626d44d2347a36b534e
     </ul>
 </div>
 {% endblock %}
-", "message/index.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/message/index.html.twig");
+", "message/index.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/message/index.html.twig");
     }
 }

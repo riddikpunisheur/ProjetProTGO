@@ -99,6 +99,6 @@ class __TwigTemplate_2d773017f8edcce0bad23d7f4876eb373f82ad1be444d75cf29c656ce52
 .container.body_default {
     border-top: 8px solid #aaaaaa;
 }
-", "@email/zurb_2/notification/local.css", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
+", "@email/zurb_2/notification/local.css", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
     }
 }

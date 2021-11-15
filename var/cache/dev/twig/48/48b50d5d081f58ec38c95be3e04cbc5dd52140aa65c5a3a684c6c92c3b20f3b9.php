@@ -417,6 +417,6 @@ class __TwigTemplate_4b4ebcd33bfdbf6deb4a8d9d68b8756a75b75744c575e970ef244bcbcc3
         </a>
     {% endif %}
 {% endmacro %}
-", "@EasyAdmin/menu.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/menu.html.twig");
+", "@EasyAdmin/menu.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/menu.html.twig");
     }
 }

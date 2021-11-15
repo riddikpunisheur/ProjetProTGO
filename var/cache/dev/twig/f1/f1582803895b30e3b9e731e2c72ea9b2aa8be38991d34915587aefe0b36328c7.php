@@ -104,6 +104,6 @@ class __TwigTemplate_8d29e22a59eeeb60508b44bf5b0a5bc2a4cee3b5d8e1bb769a5ebf98d8f
 {% if field.customOptions.get('showName') %}
     {{ field.formattedValue.name }}
 {% endif %}
-", "@EasyAdmin/crud/field/currency.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/currency.html.twig");
+", "@EasyAdmin/crud/field/currency.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/currency.html.twig");
     }
 }

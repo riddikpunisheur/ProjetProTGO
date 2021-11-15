@@ -152,6 +152,6 @@ class __TwigTemplate_71abc163e0296a98c23d69ab0d1c0bbab8f5c018531e04def1f4d372eaf
         
         <button type=\"submit\" class=\"btn\">Register</button>
         {{ form_end(registrationForm) }}
-{% endblock %}", "registration/register.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/registration/register.html.twig");
+{% endblock %}", "registration/register.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/registration/register.html.twig");
     }
 }

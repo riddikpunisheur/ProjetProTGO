@@ -561,8 +561,8 @@ return [[
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadAll%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyCollection%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyCollection%5D%5B1%5D' => 2,
-'%5BDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromStatement%5D%5B1%5D' => 1,
-'%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromStatement%5D%5B1%5D' => 2,
+'%5BDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromResult%5D%5B1%5D' => 1,
+'%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromResult%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCollectionFromStatement%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCollectionFromStatement%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadManyToManyCollection%5D%5B1%5D' => 1,
@@ -709,6 +709,8 @@ return [[
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23assignDefaultVersionValue%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getJoinSql%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getJoinSql%5D%5B1%5D' => 2,
+'%5BDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSQLResultCasing%5D%5B1%5D' => 1,
+'%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSQLResultCasing%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24owningTableMap%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24owningTableMap%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24quotedTableMap%5D%5B1%5D' => 1,
@@ -731,6 +733,8 @@ return [[
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionDiscriminatorValueSQL%5D%5B1%5D' => 2,
 '%5BDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL%5D%5B1%5D' => 2,
+'%5BDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLResultCasing%5D%5B1%5D' => 1,
+'%5B%5BC%5DDoctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLResultCasing%5D%5B1%5D' => 2,
 '%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CContracts%5CController%5CCrudControllerInterface%5D%5B1%5D' => 1,
 '%5B%5BC%5DEasyCorp%5CBundle%5CEasyAdminBundle%5CContracts%5CController%5CCrudControllerInterface%5D%5B1%5D' => 2,
 '%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CContracts%5CController%5CCrudControllerInterface%23getEntityFqcn%5D%5B1%5D' => 1,
@@ -853,6 +857,8 @@ return [[
 '%5B%5BC%5DEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractCrudController%23ajaxEdit%5D%5B1%5D' => 2,
 '%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractCrudController%23processUploadedFiles%5D%5B1%5D' => 1,
 '%5B%5BC%5DEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractCrudController%23processUploadedFiles%5D%5B1%5D' => 2,
+'%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractCrudController%23getRedirectResponseAfterSave%5D%5B1%5D' => 1,
+'%5B%5BC%5DEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractCrudController%23getRedirectResponseAfterSave%5D%5B1%5D' => 2,
 '%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractDashboardController%5D%5B1%5D' => 1,
 '%5B%5BC%5DEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractDashboardController%5D%5B1%5D' => 2,
 '%5BEasyCorp%5CBundle%5CEasyAdminBundle%5CController%5CAbstractDashboardController%23configureDashboard%5D%5B1%5D' => 1,
@@ -976,7 +982,7 @@ return [[
 
 0 => 'N;',
 1 => [],
-2 => 1636734302,
+2 => 1636968376,
 3 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [

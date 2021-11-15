@@ -83,6 +83,6 @@ onsubmit=\"return confirm('Are you sure you want to delete your account?');\">
 <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ user.id) }}\">
 <button class=\"btn\">Delete</button>
 </form>
-", "user/_delete_form.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/user/_delete_form.html.twig");
+", "user/_delete_form.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/user/_delete_form.html.twig");
     }
 }

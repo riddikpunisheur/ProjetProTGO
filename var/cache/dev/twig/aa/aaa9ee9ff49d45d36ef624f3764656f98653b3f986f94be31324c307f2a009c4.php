@@ -248,6 +248,6 @@ class __TwigTemplate_af392b9ca6ceb0381487411cc24be7b7ee9d757646783cd724818f6d304
         <li><a href=\"https://github.com/EasyCorp/EasyAdminBundle\">Project homepage</a></li>
     </ul>
 {% endblock %}
-", "@EasyAdmin/inspector/data_collector.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/inspector/data_collector.html.twig");
+", "@EasyAdmin/inspector/data_collector.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/inspector/data_collector.html.twig");
     }
 }

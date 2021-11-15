@@ -73,7 +73,7 @@ class __TwigTemplate_582cb59d4a7a9fea01ef4511e24dff16078d99870f2ad3407a31132bc15
             // line 16
             echo twig_escape_filter($this->env, (isset($context["html_id"]) || array_key_exists("html_id", $context) ? $context["html_id"] : (function () { throw new RuntimeError('Variable "html_id" does not exist.', 16, $this->source); })()), "html", null, true);
             echo "\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\" role=\"document\">
+        <div class=\"modal-dialog modal-lg\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header\">
                     <h5 class=\"modal-title\">";
@@ -89,7 +89,7 @@ class __TwigTemplate_582cb59d4a7a9fea01ef4511e24dff16078d99870f2ad3407a31132bc15
                 <div class=\"modal-body\">
                     ";
             // line 25
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 25, $this->source); })()), "value", [], "any", false, false, false, 25), "html", null, true);
+            echo nl2br(twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 25, $this->source); })()), "formattedValue", [], "any", false, false, false, 25)));
             echo "
                 </div>
             </div>
@@ -138,7 +138,7 @@ class __TwigTemplate_582cb59d4a7a9fea01ef4511e24dff16078d99870f2ad3407a31132bc15
     </a>
 
     <div class=\"modal fade\" id=\"{{ html_id }}\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\" role=\"document\">
+        <div class=\"modal-dialog modal-lg\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header\">
                     <h5 class=\"modal-title\">{{ field.label }}</h5>
@@ -146,12 +146,12 @@ class __TwigTemplate_582cb59d4a7a9fea01ef4511e24dff16078d99870f2ad3407a31132bc15
                     </button>
                 </div>
                 <div class=\"modal-body\">
-                    {{ field.value }}
+                    {{ field.formattedValue|escape|nl2br }}
                 </div>
             </div>
         </div>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/code_editor.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/code_editor.html.twig");
+", "@EasyAdmin/crud/field/code_editor.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/code_editor.html.twig");
     }
 }

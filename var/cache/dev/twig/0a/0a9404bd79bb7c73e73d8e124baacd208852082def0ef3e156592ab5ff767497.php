@@ -43,7 +43,7 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
         if ((0 === twig_compare(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 4, $this->source); })()), "crud", [], "any", false, false, false, 4), "currentAction", [], "any", false, false, false, 4), "detail"))) {
             // line 5
             echo "    ";
-            echo twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 5, $this->source); })()), "value", [], "any", false, false, false, 5);
+            echo nl2br(twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 5, $this->source); })()), "formattedValue", [], "any", false, false, false, 5), "html", null, true));
             echo "
 ";
         } else {
@@ -64,7 +64,7 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
             // line 12
             echo twig_escape_filter($this->env, (isset($context["html_id"]) || array_key_exists("html_id", $context) ? $context["html_id"] : (function () { throw new RuntimeError('Variable "html_id" does not exist.', 12, $this->source); })()), "html", null, true);
             echo "\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\" role=\"document\">
+        <div class=\"modal-dialog modal-lg\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header\">
                     <h5 class=\"modal-title\">";
@@ -80,7 +80,7 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
                 <div class=\"modal-body\">
                     ";
             // line 21
-            echo twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 21, $this->source); })()), "value", [], "any", false, false, false, 21);
+            echo nl2br(twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["field"]) || array_key_exists("field", $context) ? $context["field"] : (function () { throw new RuntimeError('Variable "field" does not exist.', 21, $this->source); })()), "formattedValue", [], "any", false, false, false, 21), "html", null, true));
             echo "
                 </div>
             </div>
@@ -117,7 +117,7 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {% if ea.crud.currentAction == 'detail' %}
-    {{ field.value|raw }}
+    {{ field.formattedValue|nl2br }}
 {% else %}
     {% set html_id = 'ea-text-editor-' ~ field.uniqueId %}
     <a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#{{ html_id }}\">
@@ -125,7 +125,7 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
     </a>
 
     <div class=\"modal fade\" id=\"{{ html_id }}\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
-        <div class=\"modal-dialog\" role=\"document\">
+        <div class=\"modal-dialog modal-lg\" role=\"document\">
             <div class=\"modal-content\">
                 <div class=\"modal-header\">
                     <h5 class=\"modal-title\">{{ field.label }}</h5>
@@ -133,12 +133,12 @@ class __TwigTemplate_aa863c3f93cddc9caccacf49582ac2983161b0e6297b041f28c9e9806ec
                     </button>
                 </div>
                 <div class=\"modal-body\">
-                    {{ field.value|raw }}
+                    {{ field.formattedValue|nl2br }}
                 </div>
             </div>
         </div>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/text_editor.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text_editor.html.twig");
+", "@EasyAdmin/crud/field/text_editor.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text_editor.html.twig");
     }
 }

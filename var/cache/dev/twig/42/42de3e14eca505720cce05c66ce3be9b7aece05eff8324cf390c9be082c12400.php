@@ -155,6 +155,6 @@ class __TwigTemplate_fd2e6cd24736ba89b9319212ec72cfd681e07b7eef112c4049420a9be97
 {% block panel %}
     {{ render(path('_profiler_router', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

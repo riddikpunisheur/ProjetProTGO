@@ -81,6 +81,6 @@ class __TwigTemplate_5c2857f92f3db295894ec7255b493053f5f8d94ba5d038094dbd0c5326f
 {% for encore_asset in assets %}
     {{ ea_call_function_if_exists('encore_entry_link_tags', encore_asset.value, encore_asset.webpackPackageName, encore_asset.webpackEntrypointName, encore_asset.htmlAttributes) }}
 {% endfor %}
-", "@EasyAdmin/includes/_encore_link_tags.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_encore_link_tags.html.twig");
+", "@EasyAdmin/includes/_encore_link_tags.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_encore_link_tags.html.twig");
     }
 }

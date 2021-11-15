@@ -120,6 +120,6 @@ class __TwigTemplate_c254ad76fe5fa7f92bfd5cfa29ac40c447bb1c2d39014c1aaa40a198f0c
         <label class=\"form-check-label\" for=\"{{ field.uniqueId }}\"></label>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/boolean.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
+", "@EasyAdmin/crud/field/boolean.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
     }
 }

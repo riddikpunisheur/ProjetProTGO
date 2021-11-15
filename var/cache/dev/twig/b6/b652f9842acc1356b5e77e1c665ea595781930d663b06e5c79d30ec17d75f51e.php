@@ -40,7 +40,7 @@ class __TwigTemplate_e61ee9bc25950b8558b4ca0883ec85c8b79dc315386b9c24e79dda98497
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/includes/_batch_action_modal.html.twig"));
 
         // line 1
-        echo "<div id=\"modal-batch-action\" class=\"modal fade\">
+        echo "<div id=\"modal-batch-action\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-body\">
@@ -53,18 +53,17 @@ class __TwigTemplate_e61ee9bc25950b8558b4ca0883ec85c8b79dc315386b9c24e79dda98497
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("batch_action_modal.content", array(), "EasyAdminBundle"), "html", null, true);
         echo "</p>
             </div>
-
             <div class=\"modal-footer\">
                 <button type=\"button\" data-bs-dismiss=\"modal\" class=\"btn btn-secondary\">
                     <span class=\"btn-label\">";
-        // line 11
+        // line 10
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("action.cancel", array(), "EasyAdminBundle"), "html", null, true);
         echo "</span>
                 </button>
                 <button type=\"button\" data-bs-dismiss=\"modal\" class=\"btn btn-danger\" id=\"modal-batch-action-button\">
                     <i class=\"fa fa-fw fa-check\"></i>
                     <span class=\"btn-label\">";
-        // line 15
+        // line 14
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans("batch_action_modal.action", array(), "EasyAdminBundle"), "html", null, true);
         echo "</span>
                 </button>
@@ -93,19 +92,18 @@ class __TwigTemplate_e61ee9bc25950b8558b4ca0883ec85c8b79dc315386b9c24e79dda98497
 
     public function getDebugInfo()
     {
-        return array (  68 => 15,  61 => 11,  53 => 6,  49 => 5,  43 => 1,);
+        return array (  67 => 14,  60 => 10,  53 => 6,  49 => 5,  43 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("<div id=\"modal-batch-action\" class=\"modal fade\">
+        return new Source("<div id=\"modal-batch-action\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-body\">
                 <h4 id=\"batch-action-confirmation-title\">{{ 'batch_action_modal.title'|trans(domain = 'EasyAdminBundle') }}</h4>
                 <p>{{ 'batch_action_modal.content'|trans(domain = 'EasyAdminBundle') }}</p>
             </div>
-
             <div class=\"modal-footer\">
                 <button type=\"button\" data-bs-dismiss=\"modal\" class=\"btn btn-secondary\">
                     <span class=\"btn-label\">{{ 'action.cancel'|trans(domain = 'EasyAdminBundle') }}</span>
@@ -118,6 +116,6 @@ class __TwigTemplate_e61ee9bc25950b8558b4ca0883ec85c8b79dc315386b9c24e79dda98497
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_batch_action_modal.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_batch_action_modal.html.twig");
+", "@EasyAdmin/crud/includes/_batch_action_modal.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_batch_action_modal.html.twig");
     }
 }

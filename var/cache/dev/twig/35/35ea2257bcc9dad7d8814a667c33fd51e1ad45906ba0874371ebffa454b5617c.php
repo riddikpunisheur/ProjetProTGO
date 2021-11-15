@@ -47,7 +47,7 @@ class __TwigTemplate_2fd1f4dc9148d038ac37ea4f46a9809ec9efe4d65c72adfb7512cb2a65a
         echo "\" />
 </form>
 
-<div id=\"modal-delete\" class=\"modal fade\">
+<div id=\"modal-delete\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-body\">
@@ -109,7 +109,7 @@ class __TwigTemplate_2fd1f4dc9148d038ac37ea4f46a9809ec9efe4d65c72adfb7512cb2a65a
     <input type=\"hidden\" name=\"token\" value=\"{{ csrf_token('ea-delete') }}\" />
 </form>
 
-<div id=\"modal-delete\" class=\"modal fade\">
+<div id=\"modal-delete\" class=\"modal fade\" tabindex=\"-1\">
     <div class=\"modal-dialog\">
         <div class=\"modal-content\">
             <div class=\"modal-body\">
@@ -128,6 +128,6 @@ class __TwigTemplate_2fd1f4dc9148d038ac37ea4f46a9809ec9efe4d65c72adfb7512cb2a65a
         </div>
     </div>
 </div>
-", "@EasyAdmin/crud/includes/_delete_form.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_delete_form.html.twig");
+", "@EasyAdmin/crud/includes/_delete_form.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/includes/_delete_form.html.twig");
     }
 }

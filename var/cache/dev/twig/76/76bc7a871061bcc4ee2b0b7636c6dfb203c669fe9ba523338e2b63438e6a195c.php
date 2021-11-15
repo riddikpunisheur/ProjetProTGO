@@ -145,6 +145,6 @@ class __TwigTemplate_97c93bfb0aaab3b3a7c309c675d240e876bd7d2f1b242e22f70edc5da8e
         <img src=\"{{ asset(image) }}\">
     </div>
 {% endfor %}
-", "@EasyAdmin/crud/field/image.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
+", "@EasyAdmin/crud/field/image.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
     }
 }

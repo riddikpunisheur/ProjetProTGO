@@ -137,7 +137,7 @@ class __TwigTemplate_61f3c597a535b908cd797c6a010ea9cf94b363ae43b00bbcfc5845c78f1
 
                     <div class=\"product-item js-ecommerce-tracking-sku  huge trans-02s\">
                         <a href=\"/pledge/Packages/Mustang-Alpha-Starter-Pack\"><img
-                                src=\"https://media.robertsspaceindustries.com/705mowvexia8o/store_small.jpg\"
+                                src=\"\"
                                 class=\"trans-02s\"></a>
                         <div class=\"info clearfix trans-02s\">
                             <div class=\"title\">
@@ -266,7 +266,7 @@ class __TwigTemplate_61f3c597a535b908cd797c6a010ea9cf94b363ae43b00bbcfc5845c78f1
 
                     <div class=\"product-item js-ecommerce-tracking-sku  huge trans-02s\">
                         <a href=\"/pledge/Packages/Mustang-Alpha-Starter-Pack\"><img
-                                src=\"https://media.robertsspaceindustries.com/705mowvexia8o/store_small.jpg\"
+                                src=\"\"
                                 class=\"trans-02s\"></a>
                         <div class=\"info clearfix trans-02s\">
                             <div class=\"title\">
@@ -313,6 +313,6 @@ class __TwigTemplate_61f3c597a535b908cd797c6a010ea9cf94b363ae43b00bbcfc5845c78f1
     </div>
 </div>
 {% endblock %}
-", "homepage.html.twig", "/var/www/html/Atlantis/exercice/Projet-Solo-THE-GOOD-ONE-master/templates/homepage.html.twig");
+", "homepage.html.twig", "/var/www/html/Atlantis/exercice/ProjetProTGO/templates/homepage.html.twig");
     }
 }
