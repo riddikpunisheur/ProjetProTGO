@@ -20,7 +20,7 @@ return [
     'app_admin_dashboard_index' => [[], ['_controller' => 'App\\Controller\\Admin\\DashboardController::index'], [], [['text', '/admin']], [], []],
     'homepage' => [[], ['_controller' => 'App\\Controller\\DefaultController::homepage'], [], [['text', '/']], [], []],
     'message' => [[], ['_controller' => 'App\\Controller\\MessageController::index'], [], [['text', '/message']], [], []],
-    'package' => [[], ['_controller' => 'App\\Controller\\PackageController::index'], [], [['text', '/package']], [], []],
+    'package' => [[], ['_controller' => 'App\\Controller\\PackageController::package'], [], [['text', '/package']], [], []],
     'questions_list' => [[], ['_controller' => 'App\\Controller\\QuestionsController::list'], [], [['text', '/']], [], []],
     'question_list_by_user' => [['last_name'], ['_controller' => 'App\\Controller\\QuestionsController::list'], [], [['variable', '/', '[^/]++', 'last_name', true], ['text', '/user']], [], []],
     'review_edit' => [['id'], ['_controller' => 'App\\Controller\\QuestionsController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true]], [], []],

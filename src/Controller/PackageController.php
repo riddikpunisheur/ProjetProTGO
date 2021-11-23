@@ -10,10 +10,8 @@ class PackageController extends AbstractController
     /**
      * @Route("/package", name="package")
      */
-    public function index()
+    public function package()
     {
-        return $this->render('package/index.html.twig', [
-            'controller_name' => 'PackageController',
-        ]);
+        return $this->render('package.html.twig');
     }
 }

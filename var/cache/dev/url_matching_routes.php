@@ -23,7 +23,7 @@ return [
             [['_route' => 'questions_list', '_controller' => 'App\\Controller\\QuestionsController::list'], null, null, null, false, false, null],
         ],
         '/message' => [[['_route' => 'message', '_controller' => 'App\\Controller\\MessageController::index'], null, null, null, false, false, null]],
-        '/package' => [[['_route' => 'package', '_controller' => 'App\\Controller\\PackageController::index'], null, null, null, false, false, null]],
+        '/package' => [[['_route' => 'package', '_controller' => 'App\\Controller\\PackageController::package'], null, null, null, false, false, null]],
         '/admin/question/add' => [[['_route' => 'question_add', '_controller' => 'App\\Controller\\QuestionsController::add'], null, null, null, false, false, null]],
         '/register' => [[['_route' => 'app_register', '_controller' => 'App\\Controller\\RegistrationController::register'], null, null, null, false, false, null]],
         '/login' => [[['_route' => 'login', '_controller' => 'App\\Controller\\SecurityController::login'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
