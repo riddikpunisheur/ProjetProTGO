@@ -982,7 +982,7 @@ return [[
 
 0 => 'N;',
 1 => [],
-2 => 1637595226,
+2 => 1637758462,
 3 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -1102,7 +1102,7 @@ return [[
                     '/package',
                 ],
                 'name' => [
-                    'package',
+                    'packages',
                 ],
             ],
         ],
